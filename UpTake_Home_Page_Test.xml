@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Testcases Lang="">
+	en
+	<UpTake_Home_Page_Test>
+		UpTake_Home_Page_Test
+		<PrerequisitesActions>
+			PrerequisitesActions
+			<Keywords>
+				<Initializedata />
+			</Keywords>
+		</PrerequisitesActions>
+			<HomePageActions>
+			HomePageActions
+			<Keywords>
+			   <SetGlobalVariables>gblStrAppName==&gt;WebStore</SetGlobalVariables>
+				<NavigateToUrl>"uptake.com"</NavigateToUrl>
+				<verifyHomePageDisplayed></verifyHomePageDisplayed>
+				<clickLinkInTopNavigation>"Approach"</clickLinkInTopNavigation>
+				<verfyApproachKeyContentDisplayed>"Partnerships with Industry Leaders"</verfyApproachKeyContentDisplayed>
+				<verfyApproachKeyContentDisplayed>"On-The-Ground Research"</verfyApproachKeyContentDisplayed>
+				<verfyApproachKeyContentDisplayed>"A Platform Approach "</verfyApproachKeyContentDisplayed>
+				<verfyApproachKeyContentDisplayed>"Integration into Workflow"</verfyApproachKeyContentDisplayed>
+				<verfyApproachKeyContentDisplayed>"A Multidisciplinary Team of Entrepreneurs"</verfyApproachKeyContentDisplayed>
+			</Keywords>
+		</HomePageActions> 
+	</UpTake_Home_Page_Test>
+</Testcases>
