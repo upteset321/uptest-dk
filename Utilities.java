@@ -103,10 +103,6 @@ public class Utilities {
 							+ strUrl + "Actual Url Opened:" + currUrl);
 				}
 			}
-			//syncBrowser();
-			getCookieInformation();
-			Zdt zdt = new Zdt(myAssert);
-			zdt.getZdtDomInformation();
 		} catch (Exception e) {
 			myAssert.setGblPassFailMessage("fail",
 					"Unable to open '" + browserType + "' browser for url: " + strUrl + ", Error: " + e.getMessage());
